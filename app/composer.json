@@ -1,0 +1,20 @@
+{
+    "name": "silvanusp/ato_map",
+    "description": "this app represents an interactive map that helps players plan their path in a way that allows them to find the unlockables they're looking for.",
+    "type": "project",
+    "require": {
+        "jmgq/a-star": "dev-master"
+    },
+    "license": "gpl2",
+    "autoload": {
+        "psr-4": {
+            "Silvanusp\\AtoMap\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "silvanusp"
+        }
+    ],
+    "minimum-stability": "dev"
+}
