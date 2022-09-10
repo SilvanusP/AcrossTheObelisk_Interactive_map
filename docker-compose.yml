@@ -1,4 +1,4 @@
-# documents a stack of services (the one we are building and dependencies of it) 
+# documents a stack of services (the one we are building and dependencies of it)
 # that we can start to run locally in an isolated and consistent environment
 version: '3.2'
 services:
@@ -26,7 +26,6 @@ services:
       - ./app/:/app:rw
   db:
     image: mysql/mysql-server
-    container_name: myPHPexperiments_MySQL
     environment:
       - MYSQL_DATABASE=default
       - MYSQL_USER=db_user
@@ -36,4 +35,4 @@ services:
     image: adminer
     restart: always
     ports:
-      - 8181:8080
+      - 8182:8080
