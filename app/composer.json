@@ -8,7 +8,8 @@
     "license": "gpl2",
     "autoload": {
         "psr-4": {
-            "Silvanusp\\AtoMap\\": "src/"
+            "Silvanusp\\AtoMap\\": "src/",
+            "": "src/"
         }
     },
     "authors": [
